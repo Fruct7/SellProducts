@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa hàng phần mềm</title>
+    <link rel="shortcut icon" href="../Thiết kế chưa có tên.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        window.addEventListener("load", () => {
+            setTimeout(() => {
+                const preloader = document.getElementById("preloader");
+                const mainContent = document.getElementById("main-content");
+
+                preloader.classList.add("fade-out");
+                mainContent.classList.add("show");
+            }, 100);
+        });
+    </script>
+</head>
+
+<body>
+    <div class="preloader" id="preloader">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Dịch vụ Facebook</h1>
+        <p style="text-align: center;position: relative;
+        top: -10px;">Admin: Nguyễn Tiến Minh</p>
+        <div class="product-grid">
+            <a href="../admin.html" class="product">
+                <div class="product-name">Xóa tài khoản người khác - Dame Acc</div>
+                <div class="product-price">Dịch vụ dame acc giá rẻ</div>
+            </a>
+            <a href="../admin.html" class="product">
+                <div class="product-name">Lấy lại tài khoản bị hack</div>
+                <div class="product-price">Các tài khoản bị thay đổi thông tin, xóa SĐT, Gmail,...</div>
+            </a>
+            <a href="../admin.html" class="product">
+                <div class="product-name">Mở khóa các tài khoản bị khóa</div>
+                <div class="product-price">Tất cả các dạng khóa 965,237,...</div>
+            </a>
+
+            <a href="../admin.html" class="product">
+                <div class="product-name">Hỗ trợ tư vấn các vấn đề về tài khoản Facebook</div>
+                <div class="product-price">Nhắn tin cho admin</div>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
